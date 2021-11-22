@@ -24,14 +24,6 @@ export function Experience() {
   );
 }
 
-export function CurrentEmployement() {
-  return (
-  <div>
-    <h1>Current Employment</h1>
-  </div>
-  );
-}
-
 export function FuturePlans() {
   return (
   <div>

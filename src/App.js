@@ -1,14 +1,23 @@
-import './App.css';
-import Navbar from './components/Navbar';
+import "./App.css";
+import Navbar from "./components/Navbar";
+import {Routes, Route} from "react-router-dom";
+import {AboutMe, Interests, Experience, FuturePlans, FunFacts} from "./components/Pages";
+import TopBanner from "./components/Title";
 
 function App() {
   return (
     <>
-    <header>*temp*Kyle Melton Resume*temp*</header>
+    <TopBanner />
     <div id="main">
-      <Navbar />
+    <Navbar />
       <article>
-        <h2> Welcome!</h2>
+        <Routes>
+          <Route path="/" element={<AboutMe />} />
+          <Route path="/interests" element={<Interests />}  />
+          <Route path="/experience" element={<Experience />}  />
+          <Route path="/future plans" element={<FuturePlans />}  />
+          <Route path="/fun facts" element={<FunFacts />}  />
+        </Routes>
       </article>
     </div>
     </>
