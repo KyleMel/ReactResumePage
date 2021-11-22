@@ -4,7 +4,7 @@ import Navbar from './components/Navbar';
 function App() {
   return (
     <>
-    <header>Kyle Melton Resume</header>
+    <header>*temp*Kyle Melton Resume*temp*</header>
     <div id="main">
       <Navbar />
       <article>
