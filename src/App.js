@@ -6,7 +6,7 @@ function App() {
     <header>Kyle Melton Resume</header>
     <div id="main">
       <nav>
-      <img src="Me.jpg" alt="Headshot"/>
+      <img src="KylePicture.jpg" alt="Headshot"/>
         <ul id="nav-container">
           <button class="btn">About Me</button>
           <button class="btn">Interests</button>
