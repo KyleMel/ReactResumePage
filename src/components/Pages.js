@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 export function AboutMe() {
   return (
@@ -10,9 +10,7 @@ export function AboutMe() {
 
 export function Interests() {
   return (
-  <div>
-    <h1>Interets</h1>
-  </div>
+  <h1>Interests</h1>
   );
 }
 
