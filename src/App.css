@@ -21,6 +21,7 @@ header {
     rgb(15, 104, 187)
   );
   height: 6vh;
+  padding-top: 15px;
 }
 article {
   margin: 200px;
