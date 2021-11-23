@@ -1,7 +1,7 @@
 import "./App.css";
 import Navbar from "./components/Navbar";
 import {Routes, Route} from "react-router-dom";
-import {AboutMe, Interests, Experience, FuturePlans, FunFacts} from "./components/Pages";
+import {AboutMe, Interests, Experience, FuturePlans} from "./components/Pages";
 import TopBanner from "./components/Title";
 
 function App() {
@@ -16,7 +16,6 @@ function App() {
           <Route path="/interests" element={<Interests />}  />
           <Route path="/experience" element={<Experience />}  />
           <Route path="/futureplans" element={<FuturePlans />}  />
-          <Route path="/funfacts" element={<FunFacts />}  />
         </Routes>
       </article>
     </div>

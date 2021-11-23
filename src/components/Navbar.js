@@ -18,9 +18,6 @@ const Navbar = () => {
           <Link style={{ textDecoration: 'none' }} to ="futureplans">
             <button class="btn">Future Plans</button>
           </Link>
-          <Link style={{ textDecoration: 'none' }} to ="funfacts">
-            <button class="btn">Fun Facts</button>
-          </Link>
         </ul>
       </nav>
   );

@@ -1,0 +1,11 @@
+.bannerLink {
+  color: white;
+}
+.bannerLink:visited {
+  color: red;
+}
+.bannerLink:hover {
+  color: black;
+}
+.bannerLink:active {
+}
