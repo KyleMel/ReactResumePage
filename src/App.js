@@ -10,9 +10,9 @@ function App() {
     <TopBanner />
     <div id="main">
     <Navbar />
-      <article>
+      <article >
         <Routes>
-          <Route path="/" element={<AboutMe />} />
+          <Route class="animate__animated animate__zoomIn" path="/" element={<AboutMe />} />
           <Route path="/interests" element={<Interests />}  />
           <Route path="/experience" element={<Experience />}  />
           <Route path="/futureplans" element={<FuturePlans />}  />

@@ -2,32 +2,32 @@ import React from "react";
 
 export function AboutMe() {
   return (
-  <>
+  <div class="animate__animated animate__zoomIn">
     <h1>About Me</h1>
     <p> Hello! My name is Kyle Melton. I was born and raised
         in Des Moines, Iowa. I am currently in the Microsoft 
         LEAP program developing my skills as a Software Engineer.
         Thank you for visiting my first React Webpage.
     </p>
-  </>
+  </div>
   );
 }
 
 export function Interests() {
   return (
-  <>
+  <div class="animate__animated animate__zoomIn">
     <h1>Interests</h1>
     <p>I enjoy frisbee golf, reading(non-fiction mostly), virtual
        reality, and play DnD. Some of my favorite movies and shows 
        are Lord Of The Rings, All of the MCU, Ted Lasso and The Office.
     </p>
-  </>
+  </div>
   );
 }
 
 export function Experience() {
   return (
-  <>
+  <div class="animate__animated animate__zoomIn">
     <h1>Experience</h1>
     <p></p>
     <ul>
@@ -51,13 +51,13 @@ export function Experience() {
         making sure all voices are heard. Decommissioned several large clusters with
         zero DBD loss. Deployed new sites while maintaining older sites.</p>
     </ul>
-  </>
+  </div>
   );
 }
 
 export function FuturePlans() {
   return (
-  <>
+  <div class="animate__animated animate__zoomIn">
     <h1>Future Plans</h1>
     <p>After completing the LEAP program, I plan to develop
        full time and continue my self-learning of Computer
@@ -65,7 +65,7 @@ export function FuturePlans() {
        and provide value to not only my team but to help
        impower others.
     </p>
-  </>
+  </div>
   );
 }
 
